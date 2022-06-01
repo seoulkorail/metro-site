@@ -1,0 +1,173 @@
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "NanumBarunGothic";
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-user-select: none;    -moz-user-select: -moz-none;   -khtml-user-select: none;   -webkit-user-select: none;   user-select: none;
+}
+p {
+    margin: 0;
+}
+#mainblock {
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0 8px 16px black;
+    margin: auto;
+    margin: 50px auto;
+}
+
+#mainblock > #title{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 17px;
+    font-weight: bold;
+    height: 100px;
+}
+
+#mainblock > #body {
+    height: calc(100% - 100px);
+    padding: 10px;
+}
+
+.station {
+    height: 94px;
+}
+.leftdiv {
+    height: 100%;
+    width: calc(50% - 37px);
+    float: left;
+    text-align: center;
+    border-bottom: 1px dashed #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stname {
+    width: 70.5px;
+    height: 100%;
+    background: #EFEFEF;
+    float: left;
+    border: solid 1px #DDD;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.stname > p {
+    color: black;
+    margin: 0;
+    font-size: 11px;
+}
+.rightdiv {
+    height: 100%;
+    width: calc(50% - 37px);
+    float: left;
+    text-align: center;
+    border-bottom: 1px dashed #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#upbtn{
+    position:fixed;
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 30px;
+    right: 20px;
+    bottom: 20px;
+    border: solid 1px white;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.trnio {
+    padding-bottom: 1px;
+}
+
+.trainInfo3 {
+    padding-top: 1px;
+}
+
+.trnio > p{
+    font-size:6pt;
+        margin: 0;
+}
+
+.trainInfo3 > p{
+    font-size: 11px;
+    font-family: 'NanumBarunGothic';
+    font-weight: 500;
+        margin: 0;
+}
+
+.trainInfo2 {
+    font-size: 6pt;
+    background: gray;
+    color: #fff;
+    padding: 0 2px;
+    /* border-radius: 5px; */
+    padding-bottom: 1px;
+    opacity: 0.8;
+}
+
+.trainInfo2 > p{
+    font-size: 6pt;
+        margin: 0;
+}
+
+.traina {
+    border-radius: 8px;
+    border: 1px solid #999;
+    margin-top: -1px;
+    z-index: 10;
+    cursor: pointer;
+    width: 32px;
+    
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow:hiddlen;
+    white-space:nowrap;
+    position : relative;
+}
+.traina:hover{
+    border-radius:8px;
+    border:1px solid #999;
+    margin-top:-1px;
+    box-shadow: 0 2px 2px 0 gray;
+    z-index:10;
+}
+.traina:visited{
+    border-radius:8px;
+    border:1px solid #999;
+    margin-top:-1px;
+    box-shadow: 0 2px 2px 0 gray;
+    z-index:10;
+}
+.train출발상{
+    top:-35px;
+}
+.train운행중상{
+    top:-50px;
+}
+.train진입상{
+    top: 35px;
+}
+.train출발하{
+    top:35px;
+}
+.train운행중하{
+    top:50px;
+}
+.train진입하{
+    top: -35px;
+}
